@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		8E8CB5F222CC458600F84259 /* 24 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 24; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8CB5F522CC458600F84259 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8E8CB5FC22CC45CD00F84259 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		8E8CB5FD22CC45FF00F84259 /* output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				8E8CB5F522CC458600F84259 /* main.cpp */,
+				8E8CB5FC22CC45CD00F84259 /* input.txt */,
+				8E8CB5FD22CC45FF00F84259 /* output.txt */,
 			);
 			path = 24;
 			sourceTree = "<group>";
@@ -239,6 +243,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDS6RVS6JM;
+				GCC_OPTIMIZATION_LEVEL = s;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,6 +253,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDS6RVS6JM;
+				GCC_OPTIMIZATION_LEVEL = s;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
